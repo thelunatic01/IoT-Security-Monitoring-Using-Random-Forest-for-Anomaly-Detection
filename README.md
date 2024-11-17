@@ -1,33 +1,43 @@
 # IoT Security Monitoring: Anomaly Detection with Enhanced Machine Learning Techniques
 
+![Python](https://img.shields.io/badge/python-v3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Completed-brightgreen)
+
 ## Overview
-This project implements an **IoT Security Monitoring System** that detects anomalies in IoT network traffic using a **Random Forest** machine learning model. The system provides real-time monitoring through a **Streamlit dashboard**, offers visual insights into the detected anomalies, and includes actionable recommendations for addressing potential threats.
+This project implements an **IoT Security Monitoring System** that detects anomalies in IoT network traffic using a **Random Forest** machine learning model. The solution includes:
+- Real-time anomaly detection.
+- Detailed visualizations of anomaly types.
+- Actionable recommendations for mitigating potential threats.
+
+The project provides a comprehensive monitoring solution for IoT network traffic data through a user-friendly Streamlit dashboard.
 
 ---
 
 ## Features
-- **Real-Time Anomaly Detection**: Processes IoT network traffic data and identifies anomalies instantly.
-- **Detailed Visualizations**: 
-  - Bar chart for anomaly types.
-  - Pie chart for anomaly distribution.
-- **Actionable Insights**:
-  - Provides a summary of total anomalies detected.
-  - Lists anomaly types along with recommendations for mitigation.
-- **User-Friendly Interface**: Built with Streamlit for easy interaction.
+- **Real-Time Anomaly Detection**: Upload IoT traffic data and instantly identify anomalies.
+- **Detailed Visualizations**:
+  - Bar charts for anomaly counts.
+  - Pie charts for anomaly type distribution.
+- **Actionable Recommendations**: Mitigation strategies for detected anomalies.
+- **User-Friendly Interface**: Intuitive Streamlit dashboard for easy monitoring.
+
+---
+
+## System Architecture
+The project consists of the following components:
+1. **Data Preprocessing**:
+   - Handles missing values and categorical encoding.
+   - Ensures feature consistency with the trained model.
+2. **Model Training**:
+   - Pre-trained Random Forest classifier for anomaly detection.
+3. **Streamlit Dashboard**:
+   - Displays real-time predictions and visual insights.
 
 ---
 
 ## Requirements
-To run this project, ensure you have the following installed:
-- **Python 3.8+**
-- Required Python libraries:
-  - `pandas`
-  - `numpy`
-  - `scikit-learn`
-  - `matplotlib`
-  - `seaborn`
-  - `streamlit`
-
-Install all dependencies using:
-```bash
-pip install -r requirements.txt
+- **Python**: Version 3.8 or higher
+- **Dependencies**: Install using `requirements.txt`:
+  ```bash
+  pip install -r requirements.txt
