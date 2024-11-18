@@ -10,7 +10,7 @@ import seaborn as sns  # For visualizing the confusion matrix
 import joblib  # For saving and loading the model
 
 # Load the dataset
-data_path = r'C:\Users\AKS\Desktop\Sem 7\PROJECT - 1\Iot_Anomaly_Detection\data\RT_IOT2022.csv'
+data_path = r'C:\Users\AKS\Desktop\Sem 7\PROJECT - 1\Iot_Anomaly_Detection\RT_IOT2022.csv\RT_IOT2022.csv'
 df = pd.read_csv(data_path)  # Load the CSV dataset into a DataFrame
 
 # Basic exploration of the dataset
