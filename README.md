@@ -38,6 +38,7 @@ The project consists of the following components:
 
 ## Requirements
 - **Python**: Version 3.8 or higher
+- **RT IoT2022 Dataset**
 - **Dependencies**: Install using `requirements.txt`:
   ```bash
   pip install -r requirements.txt
